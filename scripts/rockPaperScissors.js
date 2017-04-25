@@ -32,7 +32,7 @@ $(function () {
                     return "You win"
             }
         }
-        
+        $(".wait").empty();
         $(".wait").append("3...");
         var myInterval = setInterval(
             function () {
